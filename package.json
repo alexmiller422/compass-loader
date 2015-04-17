@@ -19,7 +19,7 @@
   "author": "Jason Brown",
   "license": "MIT",
   "dependencies": {
-    "compass-node": "^0.1.4",
+    "compass-node": "git://github.com/nkashyap/compass-node.git#master",
     "loader-utils": "^0.2.5",
     "node-sass": "^2.0.1"
   },
