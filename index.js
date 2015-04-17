@@ -22,6 +22,9 @@ module.exports = function (content) {
         opt.includePaths = opt.includePaths.concat(root);
     }
 
+    opt.imagePath =  opt.imagePath || path.dirname(this.resourcePath);
+    opt.spriteOutput =  opt.spriteOutput || path.dirname(this.resourcePath);
+
     opt.spriteDist = opt.spriteOutput || '';
 
     // output compressed by default
